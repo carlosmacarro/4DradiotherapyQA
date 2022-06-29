@@ -5,7 +5,7 @@
 
 load('RegionGrowingData.mat'); %Load RegionGrowing data 
 RSej = dicominfo('1-1Case108'); %Load template DICOM for RG to RS transformation
-leeDicom('D:\Marta Puente\datos\Lung4DnewCase108\'); %Load full case DICOM for coordinates transformation
+leeDicom('D:\User\datos\Lung4DnewCase108\'); %Load full case DICOM for coordinates transformation
 
 %Checks if masks is included in RG, if so, modifies it for calculations
 if isfield(RG, 'masks')
